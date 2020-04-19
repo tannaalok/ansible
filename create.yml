@@ -1,5 +1,5 @@
 - name: create a file
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Create a file
       file: path=/tmp/ansible/test.txt state=touch
